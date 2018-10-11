@@ -1,3 +1,6 @@
+See the output on the [list of journalists who support censorship](https://24aheaddotcom.github.io/pro-censorship-journalists/)
+
+
 To add to this listing, add rows to listing.csv, then run make-index.php to write index.html
 
 
