@@ -6,6 +6,13 @@
 	<meta name="description" content="List of pro-censorship journalists">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:creator" content="@24AheadDotCom_" />
+	<meta name="twitter:url" content="https://24aheaddotcom.github.io/pro-censorship-journalists/" />
+	<meta name="twitter:title" content="Pro-censorship journalists" />
+	<meta name="twitter:description" content="Journalists shouldn't support censorship, but obviously many do. Help add to this list." />
+	<meta name="twitter:image" content="https://24ahead.com/sites/default/files/o-CENSORSHIP-facebook.jpg" />
+
 	<link rel="stylesheet" href="css/sortable-theme-bootstrap.css" />
 	<link rel="stylesheet" href="css/sortable-theme-light.css" />
 
@@ -252,12 +259,23 @@
 		table.showcase.themes.sortable-theme-dark .themes-list li a {
 			color: #fff;
 		}
+
+		#intro {
+			margin-left:auto;
+			margin-right:auto;
+			width:70%;
+			padding: 10px;
+		}
 	</style>
 </head>
 <body>
 	<table class="showcase hero"><tr><td>
 		<div class="showcase-inner">
 			<h1>Journalists who support censorship</h1>
+
+			<div id="intro">
+			<?= $intro ?>
+			</div>
 
 			<?= $content ?>
 

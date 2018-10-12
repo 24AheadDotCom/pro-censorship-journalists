@@ -36,6 +36,8 @@ function buildTableRow( $line ) {
 	return $s . implode( '', $ary ) . '</tr>' . PHP_EOL;
 }
 
+$intro = 'Journalists shouldn\'t support censorship, but obviously many do. Help add to this list <a href="https://github.com/24AheadDotCom/pro-censorship-journalists">here</a>';
+
 $content = '<table class="sortable-theme-bootstrap" data-sortable><thead>';
 
 $fp = fopen( __DIR__ . '/listing.csv', 'r' );
